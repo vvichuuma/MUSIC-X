@@ -10,7 +10,7 @@ h1{
 	text-align: center;
 	border:1px solid red;
 	width: 30%;
-	margin: 0 auto;
+	margin: 0 35% 0 35%;
 
 }
 
@@ -38,13 +38,14 @@ h1,h2,h3,h4,h5,h6,p{
 @media only screen and (max-width: 600px) {
 
  h1{
- 	width: 50%;
+ 	width: 70%;
+ 	margin:0 15% 0 15%;
  }
 
  .connect{
 	font-size:1.3rem;
-	width: 90%;
-	margin:5% 5% 0 5% ;
+	width: 100%;
+	margin:5% 0 0 0 ;
 }
 
 } 
