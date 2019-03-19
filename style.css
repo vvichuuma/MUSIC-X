@@ -1,0 +1,101 @@
+
+
+*{
+   margin:0;
+   padding:0;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	border:1px solid red;
+	width: 30%;
+	margin: 0 auto;
+
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	padding: 0;
+}
+
+.header{
+	background-color: darkblue;
+	width: 100%; 
+	padding:1rem;
+
+}
+
+.connect{
+	font-size:2em;
+	text-align: center;
+	border:1px solid red;
+	width: 70%;
+	margin:5% 15% 0 15% ;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+ h1{
+ 	width: 50%;
+ }
+
+ .connect{
+	font-size:1.3rem;
+	width: 90%;
+	margin:5% 5% 0 5% ;
+}
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.connect{
+	font-size:1.8rem;
+	width: 70%;
+	margin:5% 15% 0 15% ;
+}
+
+
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+   .connect{
+	font-size:2rem;
+}
+
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+   .connect{
+	font-size:2rem;
+}
+
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+   .connect{
+	font-size:30px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
