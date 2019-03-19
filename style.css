@@ -3,6 +3,13 @@
 *{
    margin:0;
    padding:0;
+
+}
+
+body{
+	background-image: url("mike.jpeg");
+	background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
@@ -34,7 +41,9 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-/* Extra small devices (phones, 600px and down) */
+
+
+ Extra small devices (phones, 600px and down) 
 @media only screen and (max-width: 600px) {
 
  h1{
@@ -50,7 +59,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 } 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+ Small devices (portrait tablets and large phones, 600px and up) 
 @media only screen and (min-width: 600px) {
 .connect{
 	font-size:1.8rem;
@@ -62,7 +71,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 } 
 
-/* Medium devices (landscape tablets, 768px and up) */
+ Medium devices (landscape tablets, 768px and up) 
 @media only screen and (min-width: 768px) {
 
    .connect{
@@ -72,7 +81,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 } 
 
-/* Large devices (laptops/desktops, 992px and up) */
+ Large devices (laptops/desktops, 992px and up) 
 @media only screen and (min-width: 992px) {
 
    .connect{
@@ -82,7 +91,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 } 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+ Extra large devices (large laptops and desktops, 1200px and up) 
 @media only screen and (min-width: 1200px) {
 
    .connect{
