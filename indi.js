@@ -1,3 +1,5 @@
 function myfuc(){
-	alert("VIsh is a programmer");
+  
+  window.location="add.html";
+
 }
