@@ -8,6 +8,8 @@
 
 html, body{
 	min-height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 
@@ -158,9 +160,6 @@ body{
       #through{
     	margin:18% 0 0 0;
     }
-
-
-
 
 
 } 
