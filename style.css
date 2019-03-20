@@ -1,111 +1,114 @@
 
 
+
 *{
-   margin:0;
-   padding:0;
-
-}
-
-body{
-	background-image: url("mike.jpeg");
-	background-repeat: no-repeat;
-    background-size: cover;
-}
-
-h1{
-	color: white;
-	text-align: center;
-	border:1px solid red;
-	width: 30%;
-	margin: 0 35% 0 35%;
-
-}
-
-h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
 	padding: 0;
 }
 
-.header{
-	background-color: darkblue;
-	width: 100%; 
-	padding:1rem;
-
+html, body{
+	min-height: 100%;
 }
 
-.connect{
-	font-size:2em;
+#header{
+	/*border:1px solid white;*/
+	margin:0;
+	padding:1%;
+}
+
+#header h1{
+	color:white;
 	text-align: center;
-	border:1px solid red;
-	width: 70%;
-	margin:5% 15% 0 15% ;
+    font-family: 'Cinzel', serif;
+
+
+}
+
+.connection{
+	/*border: 1px solid white;
+*/	margin-top: 5%;
+}
+
+#connect{
+	/*border: 1px solid green;
+*/	width: 50%;
+	margin:0 auto;
+	text-align: center;
+	font-size: 2rem;
+  font-family: 'Orbitron', sans-serif;
+   color: white;
+
+
+}
+
+#through{
+	/*border: 1px solid red;*/
+	width: 30%;
+	text-align: center;
+	margin: 12% 35% 0 35%;
+	color:white;
+font-family: 'Sacramento', cursive;
+
+
 }
 
 
+#music{
+   
+   /*border: 1px solid red;*/
+	width: 30%;
+	text-align: center;
+	margin: 1% 35% 0 35%;
+	color:white;
+	font-size: 3rem;
+    font-family: 'Special Elite', cursive;
 
 
- Extra small devices (phones, 600px and down) 
+}
+
+
+body{
+	background-image: url("mike.jpeg");
+	  /* Add the blur effect */
+ 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
- h1{
- 	width: 70%;
- 	margin:0 15% 0 15%;
- }
-
- .connect{
-	font-size:1.3rem;
-	width: 100%;
-	margin:5% 0 0 0 ;
-}
 
 } 
 
- Small devices (portrait tablets and large phones, 600px and up) 
+/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-.connect{
-	font-size:1.8rem;
-	width: 70%;
-	margin:5% 15% 0 15% ;
-}
 
 
 
 } 
 
- Medium devices (landscape tablets, 768px and up) 
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
-   .connect{
-	font-size:2rem;
-}
 
 
 } 
 
- Large devices (laptops/desktops, 992px and up) 
+/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-   .connect{
-	font-size:2rem;
-}
-
 
 } 
 
- Extra large devices (large laptops and desktops, 1200px and up) 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-   .connect{
-	font-size:30px;
-}
+
 
 
 }
-
-
-
-
-
-
-
-
-
