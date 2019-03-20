@@ -11,9 +11,10 @@ html, body{
 }
 
 #header{
-	/*border:1px solid white;*/
+	border:1px solid white;
 	margin:0;
 	padding:1%;
+	font-size: 1.5rem;
 }
 
 #header h1{
@@ -25,16 +26,16 @@ html, body{
 }
 
 .connection{
-	/*border: 1px solid white;
-*/	margin-top: 5%;
+	border: 1px solid white;
+	margin-top: 5%;
 }
 
 #connect{
-	/*border: 1px solid green;
-*/	width: 50%;
-	margin:0 auto;
+	border: 1px solid green;
+	width: 100%;
+ 
 	text-align: center;
-	font-size: 2rem;
+	font-size: 3rem;
   font-family: 'Orbitron', sans-serif;
    color: white;
 
@@ -42,25 +43,25 @@ html, body{
 }
 
 #through{
-	/*border: 1px solid red;*/
-	width: 30%;
+	border: 1px solid red;
+	width: 100%;
 	text-align: center;
-	margin: 12% 35% 0 35%;
+	margin: 16% 0 0 0;
 	color:white;
-font-family: 'Sacramento', cursive;
-
+   font-family: 'Sacramento', cursive;
+   font-size: 1.5rem;
 
 }
 
 
 #music{
    
-   /*border: 1px solid red;*/
-	width: 30%;
+   border: 1px solid red;
+	width: 100%;
 	text-align: center;
-	margin: 1% 35% 0 35%;
+
 	color:white;
-	font-size: 3rem;
+	font-size: 3.5rem;
     font-family: 'Special Elite', cursive;
 
 
@@ -80,13 +81,59 @@ body{
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
+
+   html{
+   	font-size: 7px;
+   }
+   
+
+   .connection{
+   	  margin-top: 17%;
+   }
+
+
+
+
+     #through{
+    	margin:60% 0 0 0;
+    }
+
+
+
+} 
+
+
+@media only screen and (min-width: 450px) {
+
+   html{
+   	font-size: 7px;
+   }
+
+
+  
+
+        #through{
+    	margin:40% 0 0 0;
+    }
+
 
 
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
+	   html{
+   	font-size: 8px;
+   }
+
+
+ 
+
+        #through{
+    	margin:24% 0 0 0;
+    }
 
 
 
@@ -95,6 +142,18 @@ body{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
+   html{
+   	font-size: 11px;
+   }
+
+
+   
+      #through{
+    	margin:18% 0 0 0;
+    }
+
+
+
 
 
 } 
@@ -102,13 +161,30 @@ body{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+   html{
+   	font-size: 13px;
+   }
+
+     
+
+    #through{
+    	margin:18% 0 0 0;
+    }
+
+
 
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-
+  
 
 
 }
+
+
+
+
+
+
