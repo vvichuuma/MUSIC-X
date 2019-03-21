@@ -12,6 +12,7 @@ body{
 	overflow-y: hidden;
 	background-size: cover;
 	background-position: left center;
+	animation: fade 2s;
 
 
 }
@@ -49,6 +50,21 @@ body{
 html , body{
 	min-height: 100%;
 }
+
+
+@keyframes fade{
+  
+   	from{
+		opacity: 0;
+	}
+
+	to{
+		opacity: 1;
+	}
+
+
+}
+
 
 
 /* Extra small devices (phones, 600px and down) */
