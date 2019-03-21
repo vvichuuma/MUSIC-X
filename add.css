@@ -9,9 +9,10 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow-x: hidden;
-	overflow-y: auto;
+	overflow-y: hidden;
 	background-size: cover;
 	background-position: left center;
+
 
 }
 
