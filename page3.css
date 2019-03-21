@@ -1,0 +1,167 @@
+
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	color: white;
+}
+
+html , body{
+	min-height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#rock{
+	margin-top: 2.5rem;
+	padding-left: 2rem;
+	font-family: 'Special Elite', cursive;
+	font-size: 2rem;
+    letter-spacing: 0.5rem;
+}
+
+body{
+	background-image: url("w.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#form{
+	border: 1px solid red;
+	margin-top: 3rem;
+	padding-left: 2rem;
+}
+
+input{
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	width: 15rem;
+	padding: 0.6rem;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+}
+
+select { font-size: 1.3em;
+          padding:10px;
+         -webkit-appearance: none;
+         -moz-appearance: none;
+          appearance: none;
+          margin: 10px;
+          background: black;
+          color: white;
+          outline: none;
+        }
+
+
+button{
+	padding: 1rem;
+	margin-top: 1rem;
+	margin-left: 2rem;
+	border-radius: 1rem;
+	width: 7rem;
+	border:0.1rem solid black;
+}
+
+button:hover{
+	background-color: green;
+	color: white;
+	cursor: pointer;
+}
+
+#homie{
+   border:1px solid red;
+   padding: 1rem;
+   text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 300px) {
+
+  html{
+  	font-size: 10px;
+  }
+
+} 
+
+@media only screen and (min-width: 300px) {
+  
+   html{
+  	font-size: 10px;
+  }
+
+  input{
+  	width: 25rem;
+  }
+
+
+
+} 
+
+
+@media only screen and (min-width: 400px) {
+
+ html{
+  	font-size: 10px;
+  }
+
+  input{
+  	width: 20rem;
+  }
+
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 500px) {
+
+  html{
+  	font-size: 12px;
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  html{
+  	font-size: 14px;
+  }
+
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+    html{
+  	font-size: 17px;
+  }
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+  html{
+  	font-size: 17px;
+  }
+  
+
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ html{
+  	font-size: 17px;
+  }
+  
+
+}
+
+
+
+
