@@ -22,6 +22,9 @@ function postad(){
 
 function backH(){
 
+
+	alert("This app was created by VISHNU");
+
    window.location = "index.html";
 
 
