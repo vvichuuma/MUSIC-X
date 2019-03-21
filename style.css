@@ -19,7 +19,7 @@ body{
 
 
 #header{
-	border:1px solid white;
+	/*border:1px solid white;*/
 	margin:0;
 	padding:1%;
 	font-size: 1.5rem;
@@ -39,12 +39,12 @@ a{
 }
 
 .connection{
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	margin-top: 5%;
 }
 
 #connect{
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 	width: 100%;
  
 	text-align: center;
@@ -56,8 +56,8 @@ a{
 }
 
 #through{
-	border: 1px solid red;
-	width: 100%;
+	/*border: 1px solid red;
+*/	width: 100%;
 	text-align: center;
 	margin: 16% 0 0 0;
 	color:white;
@@ -69,8 +69,8 @@ a{
 
 #music{
    
-   border: 1px solid red;
-	width: 100%;
+  /* border: 1px solid red;
+*/	width: 100%;
 	text-align: center;
 
 	color:white;
@@ -99,7 +99,7 @@ body{
 	border-radius: 1rem;
 	cursor: pointer;
 	background-color: black;
-	border:1px solid white;
+	/*border:1px solid white;*/
 	color: white;
 }
 
