@@ -28,6 +28,7 @@ body{
 	background-size: cover; 
 	background-repeat: no-repeat;
 	background-position: center center;
+	animation: fading 2s;
 }
 
 #form{
@@ -77,6 +78,21 @@ button:hover{
    padding: 1rem;
    text-align: center;
 }
+
+
+@keyframes fading{
+	
+   from{
+   	  opacity: 0;
+   }
+ 
+   to{
+   	opacity: 1;
+   }
+
+
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 300px) {
