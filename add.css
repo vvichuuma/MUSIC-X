@@ -1,0 +1,100 @@
+*{
+
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background-image: url("gui.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-size: cover;
+	background-position: left center;
+
+}
+
+.look{
+	color:white;
+	border:1px solid red;
+	margin-top: 5rem;
+	padding-left: 4rem;
+
+}
+
+.but{
+	margin-top: 1rem;
+	padding: 1rem;
+	cursor: pointer;
+	border-radius: 1rem;
+	background-color: black;
+	color: white;
+
+}
+
+.but:hover{
+	background-color: green;
+}
+
+html , body{
+	min-height: 100%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+ html{
+	font-size: 16px;
+}
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ html{
+	font-size: 17px;
+}
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+   html{
+	font-size: 18px;
+}
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ 
+ html{
+	font-size: 21px;
+}
+
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+html{
+	font-size: 23px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
